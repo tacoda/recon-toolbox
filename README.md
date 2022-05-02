@@ -1,7 +1,5 @@
 # Recon Toolbox
 
-[TOC]
-
 ## Web Application Reconnaissance
 
 ### Mapping Notes
