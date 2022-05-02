@@ -1,7 +1,6 @@
 # Recon Toolbox
 
-```toc
-```
+[TOC]
 
 ## Web Application Reconnaissance
 
