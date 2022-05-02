@@ -1,12 +1,13 @@
 # Recon Toolbox
 
+```toc
+```
+
 ## Web Application Reconnaissance
 
 ### Mapping Notes
 
-[JSON is useful](mapping-notes.json)
-
-Other topics are just a basic introduction that may warrant a list.
+[JSON](mapping-notes.json) is useful for keeping this data structured and organized.
 
 ## Modern Web Application Structure
 
@@ -61,8 +62,28 @@ if (window.indexedDB) { console.log('true'); }
 
 ## Finding Subdomains
 
-### Network Analysis
+### Network Analysis Tools
 
 * Browser Network Tools
 * Burp
 * ZAP
+
+### Using Public Records
+
+Search engine caches with Google search operators:
+
+```
+site:mega-bank.com log in
+site:mega-bank.com -inurl:www
+site:mega-bank.com -inurl:www -inurl:mobile
+site:reddit.com -inurl:www
+site:wikipedia.org puppies -inurl:dog
+```
+
+Large search engines support search operators.
+
+Search archives with [Archive.org](www.archive.org)
+
+Search social media with APIs (e.g., Twitter API). Popular posts are better searched through engine since they will be indexed.
+
+### Zone-Transfer Attacks
